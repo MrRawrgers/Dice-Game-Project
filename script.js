@@ -73,7 +73,7 @@ rollSoloButton.addEventListener("click", () => {
     if (number == 1) {
         playerDiceImg.src = "dice1.png";
         score = score + number;
-        playerScore.textContent = `You lose. Final score was ${score}`;
+        playerScore.textContent = `You lose. Score was ${score}`;
         solo.style.display = "block";
         rollSolo.style.display = "none";
         rollDuo.style.display = "none";
@@ -83,7 +83,7 @@ rollSoloButton.addEventListener("click", () => {
         score = score + number;
         playerScore.textContent = score;
         if (score >= 20) {
-            playerScore.textContent = `You win! Final score was ${score}`;
+            playerScore.textContent = `You win! Score = ${score}`;
             solo.style.display = "block";
             rollSolo.style.display = "none";
             rollDuo.style.display = "none";
@@ -92,9 +92,9 @@ rollSoloButton.addEventListener("click", () => {
     } else if (number == 3) {
         playerDiceImg.src = "dice3.png";
         score = score + number;
-        playerScore.textContent = score;
+        playerScore.textContent = `Score = ${score}`;
         if (score >= 20) {
-            playerScore.textContent = `You win! Final score was ${score}`;
+            playerScore.textContent = `You win! Score = ${score}`;
             solo.style.display = "block";
             rollSolo.style.display = "none";
             rollDuo.style.display = "none";
@@ -103,9 +103,9 @@ rollSoloButton.addEventListener("click", () => {
     } else if (number == 4) {
         playerDiceImg.src = "dice4.png";
         score = score + number;
-        playerScore.textContent = score;
+        playerScore.textContent = `Score = ${score}`;
         if (score >= 20) {
-            playerScore.textContent = `You win! Final score was ${score}`;
+            playerScore.textContent = `You win! Score = ${score}`;
             solo.style.display = "block";
             rollSolo.style.display = "none";
             rollDuo.style.display = "none";
@@ -114,9 +114,9 @@ rollSoloButton.addEventListener("click", () => {
     } else if (number == 5) {
         playerDiceImg.src = "dice5.png";
         score = score + number;
-        playerScore.textContent = score;
+        playerScore.textContent = `Score = ${score}`;
         if (score >= 20) {
-            playerScore.textContent = `You win! Final score was ${score}`;
+            playerScore.textContent = `You win! Score = ${score}`;
             solo.style.display = "block";
             rollSolo.style.display = "none";
             rollDuo.style.display = "none";
@@ -125,9 +125,9 @@ rollSoloButton.addEventListener("click", () => {
     } else if (number == 6) {
         playerDiceImg.src = "dice6.png";
         score = score + number;
-        playerScore.textContent = score;
+        playerScore.textContent = `Score = ${score}`;
         if (score >= 20) {
-            playerScore.textContent = `You win! Final score was ${score}`;
+            playerScore.textContent = `You win! Score = ${score}`;
             solo.style.display = "block";
             rollSolo.style.display = "none";
             rollDuo.style.display = "none";
@@ -267,7 +267,7 @@ rollDuoButton.addEventListener("click", () => {
     } else if (number2 == 6) {
         player2DiceImg.src = "dice6.png";
         score2 = score2 + number2;
-        player2Score.textContent = `Score = ${score2}`
+        player2Score.textContent = `Score = ${score2}`;
         if (score2 >= 20) {
             player2Score.textContent = `You win! Score = ${score2}`;
             solo.style.display = "block";
