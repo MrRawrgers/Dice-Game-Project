@@ -1,22 +1,27 @@
-#wrapper {background-color: aqua; width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center;}
-#gameBox {background-color: blueviolet; width: 50vw; height: 50vh;}
-#playerNum {display: flex; background-color: brown; justify-content: space-evenly; align-items: center; height: 150px;}
+#wrapper {display: flex; justify-content: center; align-items: center;}
+#gameBox {background-color: blueviolet; width: 500px; height: 462px; border-style: solid;}
+#playerNum {display: flex; background-color: brown; justify-content: space-evenly; align-items: flex-start; height: 150px; border-bottom: solid;}
 img {width: 150px; height: 150px; border-style: solid;}
-#board {height: 30vh; background-color: cadetblue; display: flex; justify-content: space-evenly; align-items: center;}
+#board {height: 270px; background-color: cadetblue; display: flex; justify-content: space-evenly; align-items: center; border-bottom: solid;}
 #player1Dice {display: none;}
 #playerDice {display: block;}
 #player2Dice {display: none;}
 #solo {display: block;}
 #rollSolo {display: none;}
 #rollDuo {display: none;}
-#player1H {display: none;}
-#player2H {display: none;}
-#playerH {display: block;}
-#buttons {height: 40px; display: flex; justify-content: space-evenly; align-items: center;}
+#player1H {display: none; width: 150px;}
+#player2H {display: none; width: 150px;}
+#playerH {display: block; width: 150px;}
+#buttons {height: 36px; display: flex; justify-content: space-evenly; align-items: center;}
 #duo {display: block;}
 p {text-align: center; font-size: 20px;}
 h3 {text-align: center; font-size: 25px;}
-body {font-family: monospace;}
+#wholeGame {display: flex; justify-content: center;}
 #player1H {height: 100px; padding: 10px;}
 #playerH {height: 100px; padding: 10px;}
 #player2H {height: 100px; padding: 10px;}
+h1 {text-align: center; font-size: 40px;}
+h2 {text-align: center; font-size: 30px;}
+#space {height: 40px;}
+#border {background-color: cornflowerblue; text-align: center; width: 600px; height: 775px; border-style: solid;}
+body {font-family: monospace; background-color: aqua;} 
